@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001100111" font="Roboto" controllayout="npnxnanbsnfns00001100111" colorscheme="pxabnsnfns00001100111" string_table="pxabnsnfns00001100111" />
+    <layout name="pxabnsnfns00001100111" font="Roboto" controllayout="pxabnsnfns00001100111" colorscheme="pxabnsnfns00001100111" string_table="pxabnsnfns00001100111" />
+    <layout name="npxnabnsnfns00001100111" font="Roboto" controllayout="npxnabnsnfns00001100111" colorscheme="pxabnsnfns00001100111" string_table="pxabnsnfns00001100111" />
+    <layout name="npnxnanbnsnfns00001100111" font="Roboto" controllayout="npnxnanbnsnfns00001100111" colorscheme="pxabnsnfns00001100111" string_table="pxabnsnfns00001100111" />
+    <layout name="pxabnsnfns00001100110" font="Roboto" controllayout="pxabnsnfns00001100110" colorscheme="pxabnsnfns00001100111" string_table="pxabnsnfns00001100111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Suhu dan Kalor 1.0" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="transcript" value="false" group="linkleft" />
+              <listitem name="resources" value="true" group="linkleft" />
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Exit" />
+                  <property name="data" value="5rJSuUcp4Uz" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="glossary" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Roboto" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001100111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCCCCCC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2A2A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x878787" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x363636" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x525454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1A1A1A" alpha="100" stop="0" />
+                <color rgb="0x313131" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEB9471" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+                <color rgb="0x161616" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x595959" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+                <color rgb="0x4A4A4A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B4B4B" alpha="100" stop="0" />
+                <color rgb="0x3C3C3C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+                <color rgb="0x494949" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+                <color rgb="0x363636" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9C9C9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x161616" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x252525" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+                <color rgb="0x0A0A0A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+                <color rgb="0x292929" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4C4C4C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001100111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Acknowledgments</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Roboto">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Corbel">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5va2YOMHUv0" displaytext="Scene Modul" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5va2YOMHUv0.5ZoGaSQ0kqE" displaytext="Home" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.60iCIvHzWzn" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6XRlaUDvtQ2" displaytext="Daftar Materi" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6Al0ZbNaPOi" displaytext="Materi Video" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6FFxnmqc49h" displaytext="Suhu dan Pemuain" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.63DAANJmRf6" displaytext="Kalor dan Perubahan Wujud Zat" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.5emCvR92bBX" displaytext="Perpindahan Kalor" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6XgJ2InxSpn" displaytext="Sifat Termometrik Zat" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6fkuk9iDjGF" displaytext="Home Simulasi Percobaan" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.66RgB0Pfnf8" displaytext="Simulasi 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6A2XZBv1tgz" displaytext="Simulasi 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6izTKoQ1EZN" displaytext="Simulasi 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6nUB7IGdj2C" displaytext="Simulasi 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.5XmwYXARbFW" displaytext="Simulasi 5" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6psSF98Bidl" displaytext="Home Video Interaktif" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.6E80eIg6CsN" displaytext="Home Kuis Interaktif" expand="false" type="slide" />
+            <slidelink slideid="_player.5va2YOMHUv0.5iq69zTipXJ" displaytext="Video Interaktif" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6P0WHRWoYJa" displaytext="Scene Kuis Interaktif" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6P0WHRWoYJa.6OzdIHvVtDz" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0WHRWoYJa.63AuIn59Y4V" displaytext="Rules" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0WHRWoYJa.65Pzt3btzWC" displaytext="Gameboard" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6e8EcJp25wA" displaytext="Level 01" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6e8EcJp25wA.68ECvVYZrfp" displaytext="Draw from Level01" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ZX1rnGxY5N" displaytext="Level 02" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ZX1rnGxY5N.6CbIOOSx8ZK" displaytext="Draw from Level02" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ex3jfPS3uV" displaytext="Level 03" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ex3jfPS3uV.60T2eD5QodW" displaytext="Draw from Level03" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6KKgXLjCNAc" displaytext="Level 04" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KKgXLjCNAc.6HCWpdqc9ly" displaytext="Draw from Level04" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5iqnUeNyBXB" displaytext="Level 05" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5iqnUeNyBXB.6mm2jHIxSNB" displaytext="Draw from Level05" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="" displaytext="End" expand="true" type="slide" />
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5va2YOMHUv0.5ZoGaSQ0kqE" slidebank="false" type="slide">modul pembelajaran physim  materi suhu dan kalor start start start start start start @tirtandro</slidetext>
+      <slidetext slideid="5va2YOMHUv0.60iCIvHzWzn" slidebank="false" type="slide">silahkan jawab! kalau mau hujan, kok udara malah terasa lebih panas ya? short answer short answer short answer short answer short answer short answer</slidetext>
+      <slidetext slideid="5va2YOMHUv0.6XRlaUDvtQ2" slidebank="false" type="slide">sifat fisis zat yang berubah (volume, panjang, tekanan, warna) jika dipanaskan disebut sifat termometrik zat. sifat termometrik  4 perpindahan kalor adalah perpindahan energi akibat adanya perbedaan suhu di antara dua tempat yang berbeda. perpindahan kalor  3 kalor adalah energi yang mengalir dari benda panas ke benda yang lebih dingin karena adanya perubahan suhu. kalor dan perubahan wujud zat  2 suhu adalah besaran yang menyatakan derajat panas atau dingin suhu dan pemuaian  1 daftar materi suhu dan kalor                                  </slidetext>
+      <slidetext slideid="5va2YOMHUv0.6Al0ZbNaPOi" slidebank="false" type="slide">          seberapa panas matahari       benda paling panas di dunia     suhu bumi naik 2oc ?       pembahasan   materi video suhu dan kalor                </slidetext>
+      <slidetext slideid="5va2YOMHUv0.6FFxnmqc49h" slidebank="false" type="slide"> pemuaian volume adalah perubahan volume suatu benda saat benda tersebut mengalami kenaikan suhu akibat dipanaskan.  pemuaian volume  pemuaian luas merupakan perubahan luas suatu benda saat benda tersebut mengalami kenaikan suhu akibat dipanaskan.  pemuaian luas  pemuaian panjang merupakan perubahan panjang suatu benda saat benda tersebut mengalami kenaikan suhu akibat dipanaskan. pemuaian panjang  kelvin digunakan sebagai satuan internasional (si) untuk suhu. penulisan kelvin tidak ditulis sebagai derajat atau diikuti simbol derajat, hanya menggunakan huruf besar k dan tidak dimiringkan karena kelvin merupakan unit ukuran, bukan skala ukuran. mengapa kelvin tidak pakai derajat?  hubungan skala celcius, fahrenheit, kelvin, dan reamur:  termometer alat untuk mengukur suhu disebut termometer. sifat fisis zat yang berubah (volume, panjang, tekanan, warna) jika dipanaskan disebut sifat termometrik zat. titik tetap bawah: titik lebur es murni.  titik tetap atas: suhu uap di atas air yang mendidih pada tekanan 1 atm. termometer termometer termometer termometer kelvin tidak pakai derajat? kelvin tidak pakai derajat? kelvin tidak pakai derajat? kelvin tidak pakai derajat? pemuaian panjang pemuaian panjang pemuaian panjang pemuaian panjang pemuaian luas pemuaian luas pemuaian luas pemuaian luas pemuaian volume pemuaian volume pemuaian volume pemuaian volume suhu dan pemuaian</slidetext>
+      <slidetext slideid="5va2YOMHUv0.63DAANJmRf6" slidebank="false" type="slide"> perubahan wujud  “pada pencampuran dua zat, banyaknya kalor yang  dilepaskan oleh zat bersuhu tinggi sama dengan besarnya kalor yang diterima zat bersuhu lebih rendah.”  asas black  adalah jumlah kalor yang diperlukan untuk menaikan suhu benda sebesar 1 k atau 1 oc. kapasitas kalor (c)  adalah  jumlah kalor yang diperlukan untuk menaikkan suhu 1 kg zat sebesar 1 k atau 1 oc. kalor jenis (c)  jumlah energi yang dibutuhkan untuk menaikkan 1 gram air sebesar 10c dari 14,50c – 15,50c  calorie (cal) suhu adalah derajat panas suatu benda. suhu mempresentasikan energi kinetik satu molekul zat. kalor adalah energi yang mengalir dari benda panas ke benda yang lebih dingin karena adanya perubahan suhu. energi dalam adalah ukuran energi seluruh molekul dalam zat. calorie calorie calorie calorie kalor jenis (c) kalor jenis (c) kalor jenis (c) kalor jenis (c) kapasitas kalor (c) kapasitas kalor (c) kapasitas kalor (c) kapasitas kalor (c) asas black asas black asas black asas black perubahan wujud perubahan wujud perubahan wujud perubahan wujud kalor dan perubahan wujud</slidetext>
+      <slidetext slideid="5va2YOMHUv0.5emCvR92bBX" slidebank="false" type="slide"> mesin pendingin mesin pendingin membuang kalor dari tempat dingin ke tempat panas dan membutuhkan usaha supaya proses tersebut bisa berjalan. mesin pendingin membutuhkan usaha.   mesin kalor bisa disebut juga mesin carnot. mesin ini merupakan alat yang berfungsi mengubah energi panas menjadi energi mekanik.  mesin kalor  radiasi adalah proses perpindahan kalor yang terjadi dalam bentuk perambatan gelombang elektromagnetik tanpa memerlukan adanya zat perantara (medium). radiasi  adalah proses perpindahan kalor yang terjadi pada suatu zat dengan disertai perpindahan partikel-partikel dari zat tersebut. konveksi umumnya terjadi pada fluida (zat cair dan gas). konveksi  konduksi adalah proses perpindahan kalor yang terjadi pada suatu zat tanpa disertai perpindahan partikel-partikel dari zat tersebut.  konduksi yuk, ketahui macam-macam perpindahan kalor! ada konduksi, konveksi, dan radiasi. apa perbedaan ketiganya dan seperti apa contohnya? simak materi ini sampai selesai, ya! benda yang bersifat konduktor bisa menghantarkan panas dengan baik. contohnya seperti tembaga, besi, air, timah, dan alumunium. sementara itu, benda yang menghantarkan panas dengan buruk disebut isolator. contoh benda isolator antara lain plastik, kain, kayu, karet, kertas, dan ban. konduksi konduksi konduksi konduksi konveksi konveksi konveksi konveksi radiasi radiasi radiasi radiasi mesin kalor mesin kalor mesin kalor mesin kalor mesin pendingin mesin pendingin mesin pendingin mesin pendingin perpindahan kalor</slidetext>
+      <slidetext slideid="5va2YOMHUv0.6XgJ2InxSpn" slidebank="false" type="slide"> close close close ketika kita meletakkan kertas berwarna di atas salju, kertas itu akan menyebabkan salju meleleh sedalam berbeda-beda sesuai dengan warna kertas. hal ini menunjukkan warna juga merupakan sifat termometrik  warna  close close close tabrakan antar molekul yang disebabkan oleh peningkatan suhu selain meningkatkan volume juga meningkatkan tekanan gas. semakin panas suatu gas, maka akan semakin besar tekanan yang dihasilkan  tekanan  close close close ketika suhu meningkat ion-ion logam bergetar lebih kuat dan mengakibatkan tumbukan antara elektron bebas dan ion. tumbukan tersebut mengakibatkan resistensi pada logam bertambah.  resistensi zat  close close close manfaat sifat termometrik dalam panjang zat adalah pengukuran suhu menggunakan termometer. termometer raksa menggunakan sifat pemuaian panjang raksa untuk dapat mengukur suhu  panjang zat  close close close suhu rendanh menyebabkan gerakan nolekul berkurang dan memiliki energi internal yang lebih sedikit. saat gerakan molekuk lebih sedikit, volume benda cenderung mengempis  volume zat  close close close fasa zat merupakan sifat fisik yang bergantung pada suhu. misalnya es beku pada suhu dingin, menjadi air pada suhu ruang, dan menjadi uap pada suhu tinggi. sifat termometrik paad fasa zat dapat terjadi secara endotermik dan eksotermik  fasa zat                   warna tekanan resistensi zat panjang zat      volume zat  fasa zat fasa zat suhu dan kalor sifat termometrik zat</slidetext>
+      <slidetext slideid="5va2YOMHUv0.6fkuk9iDjGF" slidebank="false" type="slide">next next next next next next simulasi percobaan suhu dan kalor @tirtandro</slidetext>
+      <slidetext slideid="5va2YOMHUv0.6psSF98Bidl" slidebank="false" type="slide">next next next next next next video interaktif suhu dan kalor @tirtandro</slidetext>
+      <slidetext slideid="5va2YOMHUv0.5iq69zTipXJ" slidebank="false" type="slide">selesaikan video interaktif di bawah ini!         video 1 video 3 video 2            </slidetext>
+      <slidetext slideid="5va2YOMHUv0.6E80eIg6CsN" slidebank="false" type="slide">next next next next next next kuis interaktif suhu dan kalor @tirtandro</slidetext>
+      <slidetext slideid="6P0WHRWoYJa.6OzdIHvVtDz" slidebank="false" type="slide">  start start start start start start      kuis suhu dan kalor</slidetext>
+      <slidetext slideid="6P0WHRWoYJa.63AuIn59Y4V" slidebank="false" type="slide">skip rules skip rules skip rules skip rules skip rules skip rules 5 level soal 20 soal tiap level 60 detik untuk menjawab sebanyak mungkin pertanyaan    5 detik bonus untuk setiap jawaban benar +5 jawab 10 pertanyaan dengan benar untuk mendapatkan 1 bintang dan lanjut ke level berikutnya   jawab 15 pertanyaan dengan benar untuk mendapatkan 2 bintang… dan dapatkan 3 bintang jika anda mendapatkan nilai sempurna are you ready guys? i’m ready i’m ready i’m ready i’m ready i’m ready i’m ready                  </slidetext>
+      <slidetext slideid="6P0WHRWoYJa.65Pzt3btzWC" slidebank="false" type="slide">      end                                                                                                     klik di sini untuk mulai level 5.                              klik di sini untuk mulai level 4.                       klik di sini untuk mulai level 3.             klik di sini untuk mulai level 2.  start            end        01  01                02  02                03  03                04  04                                                05  05                                 klik di sini untuk mulai level 1.</slidetext>
+      <slidetext slideid="6oVb8LhYiVt" slidebank="true" type="slide">+5 1 pernyataan yang salah adalah … suhu diukur dengan sebuah termometer suhu diukur dengan sebuah termometer suhu diukur dengan sebuah termometer suhu diukur dengan sebuah termometer suhu diukur dengan sebuah termometer molekul benda bergetar atau bergerak lebih cepat. jika suhu dinaikkan molekul benda bergetar atau bergerak lebih cepat. jika suhu dinaikkan molekul benda bergetar atau bergerak lebih cepat. jika suhu dinaikkan molekul benda bergetar atau bergerak lebih cepat. jika suhu dinaikkan molekul benda bergetar atau bergerak lebih cepat. jika suhu dinaikkan suhu adalah besaran turunan suhu adalah besaran turunan suhu adalah besaran turunan suhu adalah besaran turunan suhu adalah besaran turunan suhu menyatakan bagaimana panas suatu benda suhu menyatakan bagaimana panas suatu benda suhu menyatakan bagaimana panas suatu benda suhu menyatakan bagaimana panas suatu benda suhu menyatakan bagaimana panas suatu benda  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6SmQIXtqWP8" slidebank="true" type="slide">+5 2 mengapa pipa pada termometer raksa dibuat sangat sempit (pipa kapiler)? agar dapat mengukur suhu rendah agar dapat mengukur suhu rendah agar dapat mengukur suhu rendah agar dapat mengukur suhu rendah agar dapat mengukur suhu rendah agar raksa mudah menempel di dinding pipa agar raksa mudah menempel di dinding pipa agar raksa mudah menempel di dinding pipa agar raksa mudah menempel di dinding pipa agar raksa mudah menempel di dinding pipa untuk meningkatkan kepekaan untuk meningkatkan kepekaan untuk meningkatkan kepekaan untuk meningkatkan kepekaan untuk meningkatkan kepekaan agar raksa terlihat jelas agar raksa terlihat jelas agar raksa terlihat jelas agar raksa terlihat jelas agar raksa terlihat jelas  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6aRe8knHeh0" slidebank="true" type="slide">+5 3 dua ratus kelvin ekivalen dengan suhu sebesar… 73oc 73oc 73oc 73oc 73oc -53oc -53oc -53oc -53oc -53oc -73oc -73oc -73oc -73oc -73oc 53oc 53oc 53oc 53oc 53oc  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5asHrKNtpp9" slidebank="true" type="slide">+5 4 dua liter air dipanaskan sehingga suhunya naik 27oc. dalam sistem satuan internasional, kenaikan suhu tersebut nilainya 27 k 27 k 27 k 27 k 27 k 246 k 246 k 246 k 246 k 246 k 300 k 300 k 300 k 300 k 300 k 72 k 72 k 72 k 72 k 72 k  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6SMLBgsoS2i" slidebank="true" type="slide">+5 5 jika dalam skala kelvin menunjukan 293 k, angka ini akan sesuai dengan skala fahreinheit sebesar? 32 ºf 32 ºf 32 ºf 32 ºf 32 ºf 54 ºf 54 ºf 54 ºf 54 ºf 54 ºf 68 ºf 68 ºf 68 ºf 68 ºf 68 ºf 74 ºf 74 ºf 74 ºf 74 ºf 74 ºf  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6gbDnwykMNX" slidebank="true" type="slide">+5 6 sebuah benda suhunya 50 ºc. jika alat ukur temperatur diganti dengan skala fahreinheit, nilai temperatur menjadi? 90 ºf 90 ºf 90 ºf 90 ºf 90 ºf 72 ºf 72 ºf 72 ºf 72 ºf 72 ºf 122 ºf 122 ºf 122 ºf 122 ºf 122 ºf 60 ºf 60 ºf 60 ºf 60 ºf 60 ºf  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6Ex5sURehZW" slidebank="true" type="slide">+5 7 temperatur 300 k jika di kalibrasi ke reamur akan menunjukkan angka? 20,0 ºr 20,0 ºr 20,0 ºr 20,0 ºr 20,0 ºr 30,0 ºr 30,0 ºr 30,0 ºr 30,0 ºr 30,0 ºr 21,6 ºr 21,6 ºr 21,6 ºr 21,6 ºr 21,6 ºr 40,0 ºr 40,0 ºr 40,0 ºr 40,0 ºr 40,0 ºr  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6jw4Fm80pnO" slidebank="true" type="slide">+5 8 apabila angka yang di tunjukkan termometer fahreinheit lima kali angka yang di tunjukkan termometer celcius, temperatur benda tersebut adalah? 20 ºc 20 ºc 20 ºc 20 ºc 20 ºc 100 ºc 100 ºc 100 ºc 100 ºc 100 ºc 10 ºc 10 ºc 10 ºc 10 ºc 10 ºc 50 ºc 50 ºc 50 ºc 50 ºc 50 ºc  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6Qh8gBFsDik" slidebank="true" type="slide">+5 9 terdapat termometer x yang memiliki titik lebur di angka -30 ºx dan titik didih air di angka 120 ºx. apabila sebuah benda memiliki suhu 40 ºc, skala yang ditunjukkan pada termometer x adalah? 45 ºx 45 ºx 45 ºx 45 ºx 45 ºx 82 ºx 82 ºx 82 ºx 82 ºx 82 ºx 30 ºx 30 ºx 30 ºx 30 ºx 30 ºx 50 ºx 50 ºx 50 ºx 50 ºx 50 ºx  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5tl8OHO5oyj" slidebank="true" type="slide">+5 10 skala celcius dan skala fahreinheit akan menunjukkan angka yang sama pada temperatur berapakah? 40 40 40 40 40 20 20 20 20 20 -40 -40 -40 -40 -40 60 60 60 60 60  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6D5d5gz1xQC" slidebank="true" type="slide">+5 11 logam yang massanya 200 g memiliki kalor jenis 500 j/kgºc dan suhunya berubah dari 20 ºc menjadi 100 ºc. jumlah kalor yang diterima logam adalah? 6000 j 6000 j 6000 j 6000 j 6000 j 9500 j 9500 j 9500 j 9500 j 9500 j 8000 j 8000 j 8000 j 8000 j 8000 j 9000 j 9000 j 9000 j 9000 j 9000 j  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5gjjSI4F2Td" slidebank="true" type="slide">+5 12 dalam sistem internasional (si), satuan untuk suhu adalah ... derajat (°) derajat (°) derajat (°) derajat (°) derajat (°) derajat celcius (°c) derajat celcius (°c) derajat celcius (°c) derajat celcius (°c) derajat celcius (°c) kelvin kelvin kelvin kelvin kelvin celcius celcius celcius celcius celcius  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6AdluMumn9p" slidebank="true" type="slide">+5 13 titik didih air pada tekanan 1 atm sama dengan ... k 373 373 373 373 373 173 173 173 173 173 300 300 300 300 300 273 273 273 273 273  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="68hT2kEwI94" slidebank="true" type="slide">+5 14 jika kita berada di dekat api unggun maka kalor akan merambat dari api ke tubuh kita melalui proses... radiasi dan konveksi radiasi dan konveksi radiasi dan konveksi radiasi dan konveksi radiasi dan konveksi radiasi dan konduksi radiasi dan konduksi radiasi dan konduksi radiasi dan konduksi radiasi dan konduksi radiasi radiasi radiasi radiasi radiasi konduksi dan konveksi konduksi dan konveksi konduksi dan konveksi konduksi dan konveksi konduksi dan konveksi  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6e3Nb2TpeSz" slidebank="true" type="slide">+5 15 energi yg berpindah dari benda yg suhunya lebih tinggi ke benda yg suhunya lebih rendah ketika kedua benda bersentuhan disebut ? suhu suhu suhu suhu suhu massa jenis massa jenis massa jenis massa jenis massa jenis kalor kalor kalor kalor kalor termometer termometer termometer termometer termometer  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6FOzsJiiS9j" slidebank="true" type="slide">+5 16 ukuran panas dingin suatu zat disebut...? massa jenis massa jenis massa jenis massa jenis massa jenis termometer termometer termometer termometer termometer suhu suhu suhu suhu suhu celcius celcius celcius celcius celcius  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5YGZoSrf5xz" slidebank="true" type="slide"> +5  17 gelas kaca yang pecah karena dituangi air panas disebabkan karena… gelas kaca tidak tahan panas gelas kaca tidak tahan panas gelas kaca tidak tahan panas gelas kaca tidak tahan panas gelas kaca tidak tahan panas gelas kaca mengalami penyusutan gelas kaca mengalami penyusutan gelas kaca mengalami penyusutan gelas kaca mengalami penyusutan gelas kaca mengalami penyusutan pemuaian pada gelas tidak merata pemuaian pada gelas tidak merata pemuaian pada gelas tidak merata pemuaian pada gelas tidak merata pemuaian pada gelas tidak merata gelas kaca merupakan isolator gelas kaca merupakan isolator gelas kaca merupakan isolator gelas kaca merupakan isolator gelas kaca merupakan isolator  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5omq7i6SHKf" slidebank="true" type="slide">+5 18 yang bukan merupakan kelebihan alkohol dibandingkan raksa sebagai zat cair pengisi termometer adalah... harganya murah harganya murah harganya murah harganya murah harganya murah titik bekunya lebih rendah titik bekunya lebih rendah titik bekunya lebih rendah titik bekunya lebih rendah titik bekunya lebih rendah titik didihnya lebih tinggi titik didihnya lebih tinggi titik didihnya lebih tinggi titik didihnya lebih tinggi titik didihnya lebih tinggi mudah didapat di pasaran mudah didapat di pasaran mudah didapat di pasaran mudah didapat di pasaran mudah didapat di pasaran  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5nRaoloyILv" slidebank="true" type="slide">+5 19 jika suatu zat dipanaskan sehingga mengalami kenaikan suhu 1 derajat celsius, zat yang memuai terbesar adalah... zat cair zat cair zat cair zat cair zat cair zat padat zat padat zat padat zat padat zat padat gas gas gas gas gas tidak dapat ditentukan tidak dapat ditentukan tidak dapat ditentukan tidak dapat ditentukan tidak dapat ditentukan  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5yYMETOK2z4" slidebank="true" type="slide">+5 20 ketika memasak air, beberapa saat sebelum mendidih akan muncul gelembung-gelembung udara pada dasar panci. hal ini membuktikan bahwa... panci memuai jika dipanaskan panci memuai jika dipanaskan panci memuai jika dipanaskan panci memuai jika dipanaskan panci memuai jika dipanaskan air memuai jika dipanaskan air memuai jika dipanaskan air memuai jika dipanaskan air memuai jika dipanaskan air memuai jika dipanaskan udara memuai jika dipanaskan udara memuai jika dipanaskan udara memuai jika dipanaskan udara memuai jika dipanaskan udara memuai jika dipanaskan zat padat memuai jika dipanaskan zat padat memuai jika dipanaskan zat padat memuai jika dipanaskan zat padat memuai jika dipanaskan zat padat memuai jika dipanaskan  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="684gV6nCzN3" slidebank="true" type="slide">+5 1 besarnya kalor yang diperlukan oleh suatu benda …. berbanding terbalik dengan massa, kalor jenis dan massa jenis berbanding terbalik dengan massa, kalor jenis dan massa jenis berbanding terbalik dengan massa, kalor jenis dan massa jenis berbanding terbalik dengan massa, kalor jenis dan massa jenis berbanding terbalik dengan massa, kalor jenis dan massa jenis sebanding dengan massa, kalor jenis dan kenaikan suhu sebanding dengan massa, kalor jenis dan kenaikan suhu sebanding dengan massa, kalor jenis dan kenaikan suhu sebanding dengan massa, kalor jenis dan kenaikan suhu sebanding dengan massa, kalor jenis dan kenaikan suhu sebanding dengan massa, kalor jenis dan massa jenis sebanding dengan massa, kalor jenis dan massa jenis sebanding dengan massa, kalor jenis dan massa jenis sebanding dengan massa, kalor jenis dan massa jenis sebanding dengan massa, kalor jenis dan massa jenis berbanding terbalik dengan massa, kalor jenis dan kenaikan suhu berbanding terbalik dengan massa, kalor jenis dan kenaikan suhu berbanding terbalik dengan massa, kalor jenis dan kenaikan suhu berbanding terbalik dengan massa, kalor jenis dan kenaikan suhu berbanding terbalik dengan massa, kalor jenis dan kenaikan suhu  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5qVU0Vp33VM" slidebank="true" type="slide">+5 2 kamu memiliki balok besi dengan kapasitas panas spesifik sebesar 450 j / (kg.k) dan massa 5 kg. balok besi ini mengalami perubahan suhu dari 300 k ke 360 k. berapa banyak panas yang diaplikasikan untuk balok yang terbuat dari besi ini ? 1332 j 1332 j 1332 j 1332 j 1332 j 66600 j 66600 j 66600 j 66600 j 66600 j 1.35 x 105 j 1.35 x 105 j 1.35 x 105 j 1.35 x 105 j 1.35 x 105 j 8000 j 8000 j 8000 j 8000 j 8000 j  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6QYuE5HNSjx" slidebank="true" type="slide">+5 3 berapa massa dari balok perak (panas spesifik 0,23 j / (k)) yang mengalami perubahan dari 270 k sampai 280 k dengan menerapkan panas sebesar 6900 j ? 33 kg 33 kg 33 kg 33 kg 33 kg 0.33 kg 0.33 kg 0.33 kg 0.33 kg 0.33 kg 3 000 g 3 000 g 3 000 g 3 000 g 3 000 g 0.107 kg 0.107 kg 0.107 kg 0.107 kg 0.107 kg  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6jKg5YToTsV" slidebank="true" type="slide">+5 4 temukan kapasitas panas spesifik dari benda 15 kg yang kehilangan panas 2000 j yang berubah dari 300 k sampai 270 k. 4.44 j/(g.k) 4.44 j/(g.k) 4.44 j/(g.k) 4.44 j/(g.k) 4.44 j/(g.k) 444 j/(kg.k) 444 j/(kg.k) 444 j/(kg.k) 444 j/(kg.k) 444 j/(kg.k) 4.44 j/(kg.k) 4.44 j/(kg.k) 4.44 j/(kg.k) 4.44 j/(kg.k) 4.44 j/(kg.k) 444 j/k 444 j/k 444 j/k 444 j/k 444 j/k  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6FDFXErnVQe" slidebank="true" type="slide">+5 5 alat pengukur suhu adalah…. manometer manometer manometer manometer manometer barometer barometer barometer barometer barometer termometer termometer termometer termometer termometer higrometer higrometer higrometer higrometer higrometer  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5sV0az3Jwd0" slidebank="true" type="slide">+5 6 termometer dibuat berdasarkan prinsip bahwa perubahan suhu akan menyebabkan…. perubahan wujud zat perubahan wujud zat perubahan wujud zat perubahan wujud zat perubahan wujud zat perubahan massa perubahan massa perubahan massa perubahan massa perubahan massa perubahan volume perubahan volume perubahan volume perubahan volume perubahan volume perubahan tekanan perubahan tekanan perubahan tekanan perubahan tekanan perubahan tekanan  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="60j8cJ4c8W0" slidebank="true" type="slide">+5 7 jika suatu benda p dirasakan lebih dingin dari benda q, maka bisa dikatakan bahwa suhu benda p…. sama dengan suhu q sama dengan suhu q sama dengan suhu q sama dengan suhu q sama dengan suhu q lebih tinggi dari suhu q lebih tinggi dari suhu q lebih tinggi dari suhu q lebih tinggi dari suhu q lebih tinggi dari suhu q lebih rendah dari suhu q lebih rendah dari suhu q lebih rendah dari suhu q lebih rendah dari suhu q lebih rendah dari suhu q tidak bisa dibandingkan dengan suhu q tidak bisa dibandingkan dengan suhu q tidak bisa dibandingkan dengan suhu q tidak bisa dibandingkan dengan suhu q tidak bisa dibandingkan dengan suhu q  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6SCqyamM9SP" slidebank="true" type="slide">+5 8 termometer raksa tidak dapat mengukur suhu yang tinggi. hal tersebut dikarenakan pada suhu yang tinggi pemuaian air raksa menjadi…. berubah-ubah berubah-ubah berubah-ubah berubah-ubah berubah-ubah lebih kecil lebih kecil lebih kecil lebih kecil lebih kecil tidak teratur tidak teratur tidak teratur tidak teratur tidak teratur lebih besar lebih besar lebih besar lebih besar lebih besar  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6ZCJgyBZWI3" slidebank="true" type="slide">+5 9 titik tetap atas termometer disesuaikan dengan…. titik didih air pada tekanan di atas 1 atmosfer titik didih air pada tekanan di atas 1 atmosfer titik didih air pada tekanan di atas 1 atmosfer titik didih air pada tekanan di atas 1 atmosfer titik didih air pada tekanan di atas 1 atmosfer suhu es yang sedang melebur suhu es yang sedang melebur suhu es yang sedang melebur suhu es yang sedang melebur suhu es yang sedang melebur titik didih air pada tekanan 1 atmosfer titik didih air pada tekanan 1 atmosfer titik didih air pada tekanan 1 atmosfer titik didih air pada tekanan 1 atmosfer titik didih air pada tekanan 1 atmosfer suhu es dicampur dengan garam dapur suhu es dicampur dengan garam dapur suhu es dicampur dengan garam dapur suhu es dicampur dengan garam dapur suhu es dicampur dengan garam dapur  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5t6U74fLMdE" slidebank="true" type="slide">+5 10 salah satu kelebihan air raksa sebagai pengisi termometer adalah memiliki rentang pengukuran yang lebar. maksud pernyataan tersebut berkaitan dengan.... sifat volatile (mudah menguap) air raksa sifat volatile (mudah menguap) air raksa sifat volatile (mudah menguap) air raksa sifat volatile (mudah menguap) air raksa sifat volatile (mudah menguap) air raksa harga raksa harga raksa harga raksa harga raksa harga raksa titik didih dan titik lebur raksa titik didih dan titik lebur raksa titik didih dan titik lebur raksa titik didih dan titik lebur raksa titik didih dan titik lebur raksa gaya kohesi dan adhesi raksa gaya kohesi dan adhesi raksa gaya kohesi dan adhesi raksa gaya kohesi dan adhesi raksa gaya kohesi dan adhesi raksa  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5ptaZfINXNr" slidebank="true" type="slide">+5 11 termometer yang menggunakan dua buah logam dinamakan.... termokopel termokopel termokopel termokopel termokopel termometer digital termometer digital termometer digital termometer digital termometer digital termometer bimetal termometer bimetal termometer bimetal termometer bimetal termometer bimetal termometrik termometrik termometrik termometrik termometrik  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6QV5FiXrEvn" slidebank="true" type="slide">+5 12 air raksa dapat digunakan sebagai bahan pengisi termometer hingga suhu 100o c. hal tersebut dikarenakan…. titik bekunya mencapai -40oc titik bekunya mencapai -40oc titik bekunya mencapai -40oc titik bekunya mencapai -40oc titik bekunya mencapai -40oc tidak membasahi dinding kaca tidak membasahi dinding kaca tidak membasahi dinding kaca tidak membasahi dinding kaca tidak membasahi dinding kaca titik didih air raksa mencapai 357oc titik didih air raksa mencapai 357oc titik didih air raksa mencapai 357oc titik didih air raksa mencapai 357oc titik didih air raksa mencapai 357oc warnanya sangat mengkilap warnanya sangat mengkilap warnanya sangat mengkilap warnanya sangat mengkilap warnanya sangat mengkilap  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5icJe5lsdGM" slidebank="true" type="slide">+5 13 termometer paling sederhana pertama kali dibuat oleh galileo-galilei. alat tersebut dinamakan…. termostat termostat termostat termostat termostat telmamater telmamater telmamater telmamater telmamater termoskop termoskop termoskop termoskop termoskop teleskop teleskop teleskop teleskop teleskop  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5V82jTlU6ZS" slidebank="true" type="slide">+5 14 zat yang paling peka terhadap perubahan suhu dan digunakan sebagai zat pengisi termometer adalah…. alumunium alumunium alumunium alumunium alumunium gas gas gas gas gas raksa raksa raksa raksa raksa air air air air air  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6rgmYP5a1dd" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="61Rku1AWHxj" slidebank="true" type="slide">+5 16 apabila dua buah benda yang suhunya berbeda dicampurkan, maka…. kalor mengalir dari benda bersuhu rendah ke benda bersuhu tinggi kalor mengalir dari benda bersuhu rendah ke benda bersuhu tinggi kalor mengalir dari benda bersuhu rendah ke benda bersuhu tinggi kalor mengalir dari benda bersuhu rendah ke benda bersuhu tinggi kalor mengalir dari benda bersuhu rendah ke benda bersuhu tinggi benda bersuhu tinggi suhunya bertambah benda bersuhu tinggi suhunya bertambah benda bersuhu tinggi suhunya bertambah benda bersuhu tinggi suhunya bertambah benda bersuhu tinggi suhunya bertambah kalor mengalir dari benda bersuhu tinggi ke benda bersuhu rendah kalor mengalir dari benda bersuhu tinggi ke benda bersuhu rendah kalor mengalir dari benda bersuhu tinggi ke benda bersuhu rendah kalor mengalir dari benda bersuhu tinggi ke benda bersuhu rendah kalor mengalir dari benda bersuhu tinggi ke benda bersuhu rendah benda bersuhu rendah melepaskan kalor benda bersuhu rendah melepaskan kalor benda bersuhu rendah melepaskan kalor benda bersuhu rendah melepaskan kalor benda bersuhu rendah melepaskan kalor  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6MA5O0deR4Q" slidebank="true" type="slide"> +5  17 jika suatu benda diberi perubahan suhu tetapi tidak ada kalor yang hilang, maka benda tersebut.... sudah jenuh terhadap penambahan kalor sudah jenuh terhadap penambahan kalor sudah jenuh terhadap penambahan kalor sudah jenuh terhadap penambahan kalor sudah jenuh terhadap penambahan kalor tidak mau menerima kalor tidak mau menerima kalor tidak mau menerima kalor tidak mau menerima kalor tidak mau menerima kalor sedang berubah wujudnya sedang berubah wujudnya sedang berubah wujudnya sedang berubah wujudnya sedang berubah wujudnya memantulkan kalor yang diterima memantulkan kalor yang diterima memantulkan kalor yang diterima memantulkan kalor yang diterima memantulkan kalor yang diterima  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5mdlmzkfl4g" slidebank="true" type="slide">+5 18 energi yang diperlukan untuk menaikkan suhu suatu zat bergantung pada faktor-faktor di bawah ini, kecuali…. kenaikan suhu kenaikan suhu kenaikan suhu kenaikan suhu kenaikan suhu jenis zat jenis zat jenis zat jenis zat jenis zat tekanan udara luar tekanan udara luar tekanan udara luar tekanan udara luar tekanan udara luar massa zat massa zat massa zat massa zat massa zat  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6qe1nAXRWfb" slidebank="true" type="slide">+5 19 4 kg besi dipanaskan dari 20oc hingga 70oc. kalor jenis besi 460 j/kg oc. energi yang diperlukan adalah.... 9200 j 9200 j 9200 j 9200 j 9200 j 920 j 920 j 920 j 920 j 920 j 92000 j 92000 j 92000 j 92000 j 92000 j 92 j 92 j 92 j 92 j 92 j  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6KXhUx2XaPr" slidebank="true" type="slide">+5 20 jika suatu zat memiliki kalor jenis kecil, maka zat tersebut…. lambat naik suhunya jika dipanaskan lambat naik suhunya jika dipanaskan lambat naik suhunya jika dipanaskan lambat naik suhunya jika dipanaskan lambat naik suhunya jika dipanaskan cepat mendidih cepat mendidih cepat mendidih cepat mendidih cepat mendidih cepat naik suhunya jika dipanaskan cepat naik suhunya jika dipanaskan cepat naik suhunya jika dipanaskan cepat naik suhunya jika dipanaskan cepat naik suhunya jika dipanaskan lambat mendidih lambat mendidih lambat mendidih lambat mendidih lambat mendidih  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5YOlSoSJrxQ" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6pUdU6IrEO9" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6kvFu4xd23p" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5YCMovc7s8Q" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5o9TNJ1LwhO" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6ODHVjcL92Q" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6MELJWF8fwS" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6FE9914g9Lk" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5jRrhnCvPEk" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5UiuhqzjUhz" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6mSTBrAHXx0" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5rBec8Bcvg8" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5ll87jORO7F" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6YU8xbkf8ZA" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6FyZwodfHzv" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5jGUtrpx9yZ" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6lzxxK6GKII" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="65quHTmXUhd" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6JTkKrVhp25" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6AziMKldGpv" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6Bqm3A0f9tL" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6Cn66V15HDV" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5Y8RYwh62vV" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5k6EZn247rc" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6AHvoGLh2Gb" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6eHfQWzeKdC" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6JPGJcnxNd3" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5YtmDv29IUz" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="62X0E4k4ogZ" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5Y0hLaUYXiM" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5ijt4dJKpsV" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5vLqLldLSCU" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6SnaDUwwfwC" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5pG7WDrUfPl" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5m56iJKDGuC" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5fEz1yMalR8" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6cS7HlCWqT5" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6cBBpbX8rWI" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6NXiU67BavX" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5Yy45bMrDzV" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5erJBvPat6D" slidebank="true" type="slide">+5 1 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6ikw3KOMiHj" slidebank="true" type="slide">+5 2 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6EB7M5k0xYw" slidebank="true" type="slide">+5 3 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5oRBMoBOgqr" slidebank="true" type="slide">+5 4 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6rkZVhVS6nn" slidebank="true" type="slide">+5 5 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5XCLGdSA6YF" slidebank="true" type="slide">+5 6 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6UswECnD9G3" slidebank="true" type="slide">+5 7 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5dqP67jYugT" slidebank="true" type="slide">+5 8 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6E1f9X4qcRr" slidebank="true" type="slide">+5 9 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="62qAPnbRfjm" slidebank="true" type="slide">+5 10 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6OPlwUvyMvP" slidebank="true" type="slide">+5 11 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5lIBCmCpzXR" slidebank="true" type="slide">+5 12 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6TjmbC8IKmI" slidebank="true" type="slide">+5 13 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="694nssODsVc" slidebank="true" type="slide">+5 14 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5yQGS5cRTK9" slidebank="true" type="slide">+5 15 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5ZSbVZ3D7c4" slidebank="true" type="slide">+5 16 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="657aEvLAYdV" slidebank="true" type="slide"> +5  17 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6O4qRRGVPye" slidebank="true" type="slide">+5 18 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="6WebyKsVOUx" slidebank="true" type="slide">+5 19 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+      <slidetext slideid="5yk3fIFaISh" slidebank="true" type="slide">+5 20 which of the options below is the correct answer? please choose one and click submit. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is the right answer so you should click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it. this is not the right answer so don’t click on it.  submit submit submit submit submit submit</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Roboto' style='font-size: 11px;' size='11' color='#FFFFFF'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5va2YOMHUv0.5ZoGaSQ0kqE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.60iCIvHzWzn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.6XRlaUDvtQ2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.6Al0ZbNaPOi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='2' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='2' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='2' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.6FFxnmqc49h" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.63DAANJmRf6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.5emCvR92bBX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Roboto' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.6XgJ2InxSpn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.6fkuk9iDjGF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.6psSF98Bidl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.5iq69zTipXJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5va2YOMHUv0.6E80eIg6CsN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144, 192, 240]'&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This demo is a mash-up of some of my favorite interactions from a variety of sources:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Artwork by Feodora&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Some slides from the Storyline Content Library, with my custom color theme and animation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144, 192, 240]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Corbel' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;A couple slides are adapted from FasterCourse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
